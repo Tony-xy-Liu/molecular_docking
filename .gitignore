@@ -1,0 +1,11 @@
+/data
+/lib/*
+!/lib/*.yml
+/build
+/dist
+
+**/cache
+**/*.sif
+**/*.egg-info
+.ipynb_checkpoints
+__pycache__

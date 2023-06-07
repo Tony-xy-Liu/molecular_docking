@@ -1,0 +1,8 @@
+#!/opt/conda/envs/for_container/bin/python
+import sys
+sys.path = list(set([
+    "/app"
+] + sys.path))
+import moldo
+
+moldo.main()
